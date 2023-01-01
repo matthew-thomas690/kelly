@@ -60,7 +60,7 @@ void outputShoppingList()
 	printf("\n\nDrawing a raffle ticket...");
 	int discountPercentage = getDiscount();
 
-	int discountValue = total / 100 * discountPercentage;
+	float discountValue = total / 100 * discountPercentage;
 	total -= discountValue;
 
 	printf("\nYour discount is %d %% !", discountPercentage);
