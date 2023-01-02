@@ -27,6 +27,7 @@ void collectInputs()
 		{
 			break;
 		}
+
 		printf("Please enter the price of item in %c: ", poundSymbol);
 		scanf_s("%f", &price);
 		int len = strcspn(name, "\n");
